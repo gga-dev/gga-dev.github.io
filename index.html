@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>GPI Dashboard</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-3 sticky-top navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="https://gga.org/gpi/index.html">
+                <img class="logo" src="img/logo-dark.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#objectives">Objectives</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#graphs">Graphs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#data">Data Sources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-success ms-lg-3">Sign Up</button>
+            </div>
+        </div>
+    </nav><!-- //NAVBAR -->
+
+    <!-- HERO -->
+    <div class="hero vh-100 d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                    <h1 class="display-4 text-white">Learn about your Municipality on our 2024 GPI</h1>
+                    <p class="text-white my-3">The Governance Performance Index (GPI) 
+                        is a scoring and ranking instrument which Good Governance Africa (GGA) 
+                        created in order to give an independent assessment of the state of local governance in South Africa. </p>
+                    <a href="https://gga.org/gpi/start.html" class="btn me-2 btn-success">Get Started</a>
+                    <a href="#graphs" class="btn btn-outline-light">Our Graphs</a>
+                </div>
+            </div>
+        </div>
+    </div><!-- //HERO -->
+
+    <!-- SERVICES -->
+    <section id="objectives">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-success">OBJECTIVES</h6>
+                    <h1>Our Dashbaord and Rankings</h1>
+                    <p>The ranking forms part of our work to improve government effectiveness 
+                        and accountability in South Africa. The latest report, published in March 2024, and 
+                        which this dashboard accompanies, is the fourth such GPI report since the tool was unveiled in 2016. </p>
+                </div>
+            </div>
+            <!-- <div>
+                <iframe width="1100" height="900" src="https://lookerstudio.google.com/embed/reporting/a9494744-021b-442c-a04b-bde3c397a446/page/qgR" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            </div> -->
+            <!-- <div class="row g-4">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect bounceInUp">
+                        <div class="iconbox">
+                            <i class='bx bxs-check-shield'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-comment-detail'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-cog'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-heart'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-rocket'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service card-effect">
+                        <div class="iconbox">
+                            <i class='bx bxs-doughnut-chart'></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Service</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores
+                            perferendis </p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section><!-- SERVICES -->
+
+    <!-- FEATURES -->
+    <section class="row w-100 py-0 bg-light" id="features">
+        <div class="col-lg-6 col-img"></div>
+        <div class="col-lg-6 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <h6 class="text-success"></h6>
+                        <h1>Purpose</h1>
+                        <p>In 2021 GGA undertook a comprehensive revision of the
+                            GPI, with the intent of developing a methodology that
+                            balanced fairness and accuracy, with direct reference to the
+                            role identified for local government within South Africa’s
+                            constitutional framework. Specifically, in revising the GPI,
+                            we referred to five core documents:</p>
+
+                        <p>1. The Constitution of the Republic of SA, 1996, Chapter 7</p>
+                        <p>2. White Paper on Local Government, 1998</p>
+                        <p>3. Municipal Structures Act, 1998, Act 117 of 1998 </p>
+                        <p>4. Municipal Systems Act, 2000, Act 32 of 2000</p>
+                        <p>5. Municipal Financial Management Act, 2003, Act 56 of 2003 </p>
+                        
+                        <div class="feature d-flex">
+                            <div class="iconbox me-3">
+                                <a href="https://tinyurl.com/GPI-2024-DOWNLOAD"><i class='bx bxs-download'></i></a>
+                            </div>
+                            <div>
+                                <h5>Download</h5>
+                                <p>Get the latest report</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- FEATURES -->
+
+    <!-- PROJECTS -->
+    <section id="graphs">
+        <div class="container-fluid">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-success">GRAPHS</h6>
+                    <h1>Explore what we do with the Data</h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/pro1.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white"> </h4>
+                                <h6 class="text-white"> </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/pro2.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white"> </h4>
+                                <h6 class="text-white"> </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/pro3.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white"> </h4>
+                                <h6 class="text-white"> </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/pro4.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white"> </h4>
+                                <h6 class="text-white"> </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/pro5.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white"> </h4>
+                                <h6 class="text-white"> </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="project">
+                        <img src="img/pro6.jpg" alt="">
+                        <div class="overlay">
+                            <div>
+                                <h4 class="text-white"> </h4>
+                                <h6 class="text-white"> </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- PROJECTS -->
+
+    <!-- Data Sources -->
+    <section id="data" class="bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-success"></h6>
+                    <h1>Data Sources</h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row g-1">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="data card-effect text-center">
+                        <img src="img/source1.png" alt="">
+                        <!-- <h6>STARTER</h6>
+                        <h1>$99</h1>
+                        <hr>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Premium support</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                30+ Webmaster Tools</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Drag & Drop Builder</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                eCommerce Store</li>
+                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="data card-effect text-center">
+                        <img src="img/source2.png" alt="">
+                        <!-- <h6>STARTER</h6>
+                        <h1>$199</h1>
+                        <hr>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Premium support</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                30+ Webmaster Tools</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Drag & Drop Builder</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                eCommerce Store</li>
+                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="data card-effect text-center">
+                        <img src="img/source3.png" alt="">
+                        <!-- <h6>STARTER</h6>
+                        <h1>$299</h1>
+                        <hr>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Premium support</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                30+ Webmaster Tools</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Drag & Drop Builder</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                eCommerce Store</li>
+                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="data card-effect text-center">
+                        <img src="img/source4.png" alt="">
+                        <!-- <h6>STARTER</h6>
+                        <h1>$399</h1>
+                        <hr>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Premium support</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                30+ Webmaster Tools</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Drag & Drop Builder</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                eCommerce Store</li>
+                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="data card-effect text-center">
+                        <img src="img/source5.png" alt="">
+                        <!-- <h6>STARTER</h6>
+                        <h1>$399</h1>
+                        <hr>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Premium support</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                30+ Webmaster Tools</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Drag & Drop Builder</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                eCommerce Store</li>
+                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="data card-effect text-center">
+                        <img src="img/source6.png" alt="">
+                        <!-- <h6>STARTER</h6>
+                        <h1>$399</h1>
+                        <hr>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Premium support</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                30+ Webmaster Tools</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Drag & Drop Builder</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                eCommerce Store</li>
+                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="data card-effect text-center">
+                        <img src="img/source7.png" alt="">
+                        <!-- <h6>STARTER</h6>
+                        <h1>$399</h1>
+                        <hr>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Premium support</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                30+ Webmaster Tools</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Drag & Drop Builder</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                eCommerce Store</li>
+                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="data card-effect text-center">
+                        <img src="img/source8.png" alt="">
+                        <!-- <h6>STARTER</h6>
+                        <h1>$399</h1>
+                        <hr>
+                        <ul class="list-unstyled mb-4">
+                            <li><i class='bx bxs-check-circle'></i>
+                                Premium support</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                30+ Webmaster Tools</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                Drag & Drop Builder</li>
+                            <li><i class='bx bxs-check-circle'></i>
+                                eCommerce Store</li>
+                            <li><i class='bx bxs-check-circle'></i>Wordpress plugins</li>
+                        </ul>
+                        <button class="btn btn-success">Get Started</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Data Sources -->
+
+    <!-- TEAM -->
+    <section id="team">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-success"></h6>
+                    <h1>Meet The Team</h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row text-center g-4">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="img/team2.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Pranish Desai</h5>
+                        <p>Snr Researcher</p>
+                        <div class="social-icons">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="img/team4.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Mmabatho Mongae</h5>
+                        <p>Researcher</p>
+                        <div class="social-icons">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="img/team3.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Stuart Morrison</h5>
+                        <p>Research Intern</p>
+                        <div class="social-icons">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="img/team5.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Nnaemeka Ohamadike</h5>
+                        <p>Research Intern</p>
+                        <div class="social-icons">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="img/team6.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Chrissy Dube</h5>
+                        <p>GIA Head of Progamme</p>
+                        <div class="social-icons">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member card-effect">
+                        <img src="img/team1.jpg" alt="">
+                        <h5 class="mb-0 mt-4">Tshepang Molefe</h5>
+                        <p>Chief Technology Officer</p>
+                        <div class="social-icons">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- TEAM -->
+
+    <!-- BLOG -->
+    <section id="blog" class="bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-success"></h6>
+                    <h1 class="text-success">Latest articles relating to Elections</h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="img/IMG_fakenews-1024x576.jpg" alt="">
+                        <h5 class="mt-4"><a href="https://gga.org/combatting-fake-news-and-disinformation-is-a-civil-duty/" target="_blank">Combatting fake news and disinformation is a civil duty</a></h5>
+                        <p>As electioneering ramps up ahead of the national election later this year, we can expect a marked increase in the proliferation of disinformation, misinformation... </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="img/D4GA_Photo_1.jpg" alt="">
+                        <h5 class="mt-4"><a href="https://gga.org/why-data-matters-for-governance/" target="_blank">Why data matters for governance</a></h5>
+                        <p>Data is becoming increasingly central to our daily lives, influencing both personal choices and broader societal decisions. From a governance perspective...</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-post card-effect">
+                        <img src="img/IMG_Pranish_GPI.jpg" alt="">
+                        <h5 class="mt-4"><a href="https://gga.org/dont-take-transparent-governance-institutions-for-granted/" target="_blank">Don’t take transparent governance institutions...</a></h5>
+                        <p>In mid-March, Good Governance Africa (GGA) will release the newest edition of its flagship assessment tool, the Governance Performance Index (GPI). </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- BLOG -->
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <h6 class="text-success">CONTACT</h6>
+                    <h1>Get In Touch</h1>
+                    <p></p>
+                </div>
+            </div>
+
+            <form action="" class="row g-3 justify-content-center">
+                <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Full Name">
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Enter E-mail">
+                </div>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" placeholder="Enter Subject">
+                </div>
+                <div class="col-md-10">
+                    <textarea name="" id="" cols="30" rows="5" class="form-control"
+                        placeholder="Enter Message"></textarea>
+                </div>
+                <div class="col-md-10 d-grid">
+                    <button class="btn btn-success">Contact</button>
+                </div>
+            </form>
+
+        </div>
+    </section><!-- CONTACT -->
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-4">
+                        <img class="logo" src="img/logo-white.svg" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="text-white">Brand</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://gga.org/gpi/start.html">Dashboard</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Objectives</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Data Sources</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="text-white">More</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Privacy & Policy</a></li>
+                            <!-- <li><a href="#">Warranty</a></li>
+                            <li><a href="#">Shipment</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="text-white">Contact</h5>
+                        <ul class="list-unstyled">
+                            <li>Address: The Mall Offices, 11 Cradock Ave, Rosebank, Johannesburg, 2196</li>
+                            <li>Email: dev@gga.org</li>
+                            <li>Phone: 011 268 0479</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mb-0">© 2024 copyright all right reserved | <a
+                                href="https://gga.org"
+                                class="text-white">Good Governance Africa</a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social-icons">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
